@@ -6,6 +6,7 @@
 body{
     font-family: "Playfair Display", serif;
 }
+/* POCETAK CSS ZA HERO SEKCIJU */
 #hero{
 
     background: url(https://i.pinimg.com/736x/b8/8f/8b/b88f8b20dafb48a6e893c13c06678354.jpg) no-repeat center/cover;
@@ -18,6 +19,8 @@ body{
 .hero-content h1{
     color: rgb(255, 205, 240);
     font-family: "Dancing Script", cursive;
+    font-size: xx-large;
+    margin-bottom: 30px;
 }
 .hero-content{
     background-color: rgb(150, 137, 137, 0.7);
@@ -25,6 +28,51 @@ body{
     width: 60%;
     border-radius: 20px;
     margin: 0 auto;
-    box-shadow: 0 4px 10px rgb(30, 22, 22. 0.4);
+    box-shadow: 0 4px 10px rgb(118, 116, 116,0.2);
     color: rgb(255, 255, 255);
 }
+/* KRAJ CSS ZA HERO SEKCIJU */
+
+/* POCETAK CSS ZA UKUSI SEKCIJU*/
+
+.ukusi-section{
+    background-color: rgb(255, 210, 217);
+    max-width: 1500px;
+    margin: 50px auto;
+    padding: 50px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 0 4px 10px rgb(106, 105, 105, 0.2);
+}
+.ukusi-section h2{
+    font-family: "Dancing Script", cursive;
+    font-size: xx-large;
+}
+
+.ukusi-grid{
+display: grid;
+grid-template-columns: 1fr 1fr 1fr 1fr;
+gap: 20px ;
+padding: 20px;
+}
+.ukus-box img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 2px solid gold;
+    transition: transform 0.8s ease;
+    transform-style: preserve-3d;
+    
+}
+.ukus-box img:hover{
+    transform: rotateY(360deg);
+}
+.ukus-box h3{
+text-align: center;
+margin-top: 10px;
+}
+
+
+
+/*KRAJJ CSS ZA UKUSI SEKCIJU */
