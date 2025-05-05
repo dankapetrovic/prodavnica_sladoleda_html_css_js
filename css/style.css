@@ -61,7 +61,7 @@ padding: 20px;
     height: 200px;
     border-radius: 50%;
     border: 2px solid gold;
-    transition: transform 0.8s ease;
+    transition: transform 1s ease;
     transform-style: preserve-3d;
     
 }
@@ -73,6 +73,64 @@ text-align: center;
 margin-top: 10px;
 }
 
-
-
 /*KRAJJ CSS ZA UKUSI SEKCIJU */
+
+/* POCETAK SEKCIJE ZA NOVI PROIZBOD SEKCIJU */
+.best-seller-section{
+    background-color: #fefebc;
+    padding: 40px 20px;
+    text-align: center;
+    color: rgb(131, 49, 24);
+}
+.best-seller-section h2{
+    font-family: "Dancing Script", cursive;
+    font-size: xx-large;
+}
+.cena{
+    font-size: 25px;
+    font-weight: bold;
+    margin: 10px;
+    color: rgb(246, 63, 42);
+}
+.best-seller-content img{
+    height: 400px;
+
+}
+.best-seller-content{
+    position: relative;
+}
+.nutritivne-vrednosti{
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    max-width: 350px;
+    margin: 10px auto;
+}
+.stiker{
+    position: absolute;
+    top: 20px;
+    left: 500px;
+    background-color: rgb(255, 80, 80);
+    color: white;
+    padding: 6px 12px;
+    font-weight: bold;
+    border-radius: 5px;
+    box-shadow: 2px 2px 6px rgb(79, 79, 79, 0.2);
+    letter-spacing: 2px;
+    transform-origin: top center;
+    animation: swing 2s infinite ease-in-out;
+}
+@keyframes swing{
+    0% { transform: rotate(0deg);}
+    25% { transform: rotate(5deg);}
+    50% { transform: rotate(0deg);}
+    75% { transform: rotate(-5deg);}
+    100% { transform: rotate(0deg);}
+}
+.alergeni{
+    margin-top: 10px;
+    padding: 10px;
+    border-top: 2px solid rgb(131, 119, 119);
+    font-size: small;
+}
+/* KRAJ SEKCIJE ZA NOVI PROIZBOD SEKCIJU */
