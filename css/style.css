@@ -160,3 +160,102 @@ margin-top: 10px;
     padding-bottom: 50px;
     color: #f73abe;
 }
+ /* CSS za preporuke */
+ .preporuke{
+    background-color:  rgb(255, 210, 217);
+    margin: 50px auto;
+    padding: 50px 300px;
+ }
+ .preporuke h2{
+    font-family: "Dancing Script", cursive;
+
+ }
+ .preporuka{
+    background-color: antiquewhite;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgb(75, 74, 74, 0.2);
+    opacity: 0;
+    animation-fill-mode: forwards ;
+ }
+ .preporuka:nth-child(1){
+    animation: slideInLeft 1s ease forwards;
+    animation-delay: 0.2s;
+ }
+ .preporuka:nth-child(2){
+    animation: slideInRight 1s ease forwards;
+    animation-delay: 0.2s;
+ }
+ @keyframes slideInLeft{
+    from{
+        opacity:0;
+        transform: translateX(-50px);
+    }
+    to{
+        opacity:1;
+        transform: translateX(0);
+    }
+ }
+ @keyframes slideInRight{
+    from{
+        opacity:0;
+        transform:translateX(50px)
+    }
+    to{
+        opacity:1;
+        transform:translateX(0);
+    }
+ }
+ .preporuke-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+ }
+ .preporuka-footer img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+ }
+ .preporuka-footer{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+ }
+ .zvezdice{
+    color: gold;
+    padding-bottom: 10px;
+ }
+ .zasto{
+    background-color: rgb(220, 243, 245);
+    padding: 50px 20px;
+    margin:  50px auto;
+    max-width: 1000px;
+    border-radius: 20px;
+    box-shadow: 0 4px 10px rgb(82, 81, 81,0.2);
+ }
+ .slika img{
+    width: 250px;
+    height: auto;
+ }
+ .zasto-grid{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    
+ }
+ .razlog{
+    display: grid;
+    grid-template-columns: 1fr 6fr;
+    margin: 5px;
+ }
+ .kolona1{
+    font-size: 30px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+ }
+.kolona2{
+    padding: 10px;
+}
+ 
