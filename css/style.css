@@ -77,7 +77,7 @@ margin-top: 10px;
 
 /* POCETAK SEKCIJE ZA NOVI PROIZBOD SEKCIJU */
 .best-seller-section{
-    background-color: #fefebc;
+    background-color: #ffffec;
     padding: 40px 20px;
     text-align: center;
     color: rgb(131, 49, 24);
@@ -130,7 +130,7 @@ margin-top: 10px;
 .alergeni{
     margin-top: 10px;
     padding: 10px;
-    border-top: 2px solid rgb(131, 119, 119);
+    border-top: 1px solid rgb(204, 204, 204);
     font-size: small;
 }
 /* KRAJ SEKCIJE ZA NOVI PROIZBOD SEKCIJU */

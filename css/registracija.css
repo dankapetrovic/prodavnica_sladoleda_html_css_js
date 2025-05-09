@@ -1,0 +1,50 @@
+body{
+background-image: url(https://images.squarespace-cdn.com/content/v1/621d82bb70fa317509429402/8d13c8c3-84b8-49f4-b1ff-b0050872f94d/AdobeStock_339099008.jpeg);
+background-repeat: no-repeat;
+background-size: cover;
+}
+.registracija-section{
+    background-color: rgb(244, 228, 209, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 600px;
+    margin: 100px auto;
+}
+.input-group{
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    border-radius: 5px;
+    margin: 10px;
+}
+.input-group i{
+    margin-right: 10px;
+}
+.input-group input{
+    padding:10px;
+    border: none;
+    border-radius: 5px;
+    background-color: aliceblue;
+    width: 100%;
+}
+.registracija-section h2{
+    font-family: "Dancing Script", cursive;
+    margin-left: 70px;
+}
+.dugme-submit{
+    display: block;
+    margin-left: auto;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    background-image: linear-gradient(to right, rgb(241, 179, 190), white);
+    box-shadow: 2px 4px 10px rgb(21, 21, 21, 0.2);
+    cursor: pointer;
+}
+.dugme-submit:hover{
+    background-image: linear-gradient(to right, white, rgb(241, 179, 190));
+    transform: translateY(-2px);
+}
+.registracija-section a{
+    color: hotpink;
+}

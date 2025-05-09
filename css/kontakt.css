@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h2{
+    font-family: "Dancing Script", cursive;
+    margin-bottom: 15px;
+}
+.kontaktformasekcija{
+   
+   background: url(https://static.vecteezy.com/system/resources/thumbnails/019/859/733/small/seamless-pattern-of-melted-strawberry-pink-cream-dripping-dessert-background-with-melted-strawberry-pink-cream-banner-seamless-pattern-transparent-background-illustration-png.png)no-repeat center/cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 50px;
+}
+input, textarea{
+    padding: 15px;
+    margin-top: 15px;
+    border-radius: 5px;
+    width: 100%;
+}
+textarea{
+    height: 200px;
+}
+.posalji-poruku {
+    width: 100%;
+    padding: 15px;
+    border-radius: 5px;
+    background-image: linear-gradient(to right, #BDEDE0, #FEC9F1);
+    cursor: pointer;
+}
+.posalji-poruku:hover{
+    transform: scale(1.02);
+    transition: 0.3s;
+}
+.kontaktpodaci{
+    background-color: #edffec;
+    margin: 50px auto;
+    padding: 50px; 
+    max-width: 800px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 4px 4px 4px rgb(105, 104, 104, 0.3);
+}
+.kontaktpodaci h2{
+    margin-top: 0;
+}
+.socials{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    border-radius: 10px;
+}
+.podatak{
+    background-color: #f7e9f7;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+.podatak a{
+    color: black;
+}
+.podatak a:hover{
+    color: brown;
+    transform: scale(1.04)
+}
+
+.ikonica {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+.ikonica:hover{
+    transform: scale(1.05);
+}
+.mapagrid{
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    width: 800px;
+    margin: 0 auto;
+}
+.kolona1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.kontaktmapa{
+    padding: 20px;
+    background-image: linear-gradient(to right,#BDEDE0, #FEC9F1);
+}
+.faq{
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+}
+.svapitanja{
+   background-color: #edffec;
+    padding: 50px;
+    border-radius: 7px;
+    width: 600px;
+    margin: 50px auto;
+}
+.pitanje{
+    background-color: #f7e9f7;
+    padding: 10px;
+    
+    margin: 10px auto;
+    border-radius: 10px;
+}
+.pitanje p{
+    display: none;
+}
+.pitanje.aktivan p{
+    display: block;
+}
+.pitanje.aktivan{
+    border-left:6px solid rgb(133, 133, 251);
+}
+.pitanje:hover{
+    cursor: pointer;
+    background-color: rgb(251, 250, 251);
+    transform: scale(1.02);
+}
