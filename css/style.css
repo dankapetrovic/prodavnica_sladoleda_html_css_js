@@ -6,6 +6,12 @@
 body{
     font-family: "Playfair Display", serif;
 }
+h1, h2{
+        font-family: "Dancing Script", cursive;
+
+}
+
+
 /* POCETAK CSS ZA HERO SEKCIJU */
 #hero{
 
