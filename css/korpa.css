@@ -35,5 +35,21 @@ table{
 th, td{
     padding: 10px;
     border: 1px solid #ccc;
-   
+}
+.obrisi{
+    font-size: 20px;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+.obrisi:hover{
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+input{
+    width: 50px;
+    text-align: center;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding: 5px;
 }
