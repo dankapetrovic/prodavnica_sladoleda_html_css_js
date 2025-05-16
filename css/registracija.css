@@ -48,3 +48,46 @@ background-size: cover;
 .registracija-section a{
     color: hotpink;
 }
+@media (max-width: 768px) {
+    body{
+        background-size: repeat;
+    }
+    .registracija-section {
+        margin: 50px 20px;
+        padding: 15px;
+        max-width: 100%;
+    }
+
+    .registracija-section h2 {
+        margin-left: 0;
+        text-align: center;
+        font-size: 1.8em;
+    }
+
+    .input-group {
+        flex-direction: column;
+        align-items: flex-start;
+        margin: 10px 0;
+    }
+
+    .input-group i {
+        margin-bottom: 5px;
+        font-size: 1.2em;
+    }
+
+    .input-group input {
+        width: 100%;
+        font-size: 1em;
+    }
+
+    .dugme-submit {
+        width: 100%;
+        font-size: 1em;
+        margin-top: 15px;
+    }
+
+    .registracija-section p {
+        text-align: center;
+        font-size: 0.95em;
+    }
+}

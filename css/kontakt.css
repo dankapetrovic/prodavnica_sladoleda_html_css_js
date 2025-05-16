@@ -136,3 +136,69 @@ textarea{
     background-color: rgb(251, 250, 251);
     transform: scale(1.02);
 }
+@media screen and (max-width: 1024px) {
+    .mapagrid {
+        grid-template-columns: 1fr;
+        width: 90%;
+    }
+
+    .svapitanja {
+        width: 90%;
+    }
+
+    .kontaktpodaci {
+        padding: 30px;
+        width: 90%;
+    }
+
+    .socials {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+}
+
+/* Responzivnost za mobilne telefone */
+@media screen and (max-width: 768px) {
+    .kontaktformasekcija {
+        padding: 30px;
+    }
+
+    input, textarea {
+        width: 100%;
+        font-size: 16px;
+    }
+
+    .posalji-poruku {
+        font-size: 16px;
+    }
+
+    .mapagrid {
+        width: 100%;
+    }
+
+    iframe {
+        width: 100%;
+        height: 250px;
+    }
+
+    .socials {
+        grid-template-columns: 1fr;
+    }
+
+    .svapitanja {
+        padding: 30px;
+        width: 95%;
+    }
+
+    .pitanje {
+        font-size: 16px;
+    }
+
+    nav .nav-links {
+        flex-direction: column;
+    }
+
+    .nav-links li {
+        margin: 10px 0;
+    }
+}

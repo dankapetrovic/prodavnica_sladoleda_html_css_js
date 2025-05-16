@@ -19,12 +19,15 @@
 
 </head>
 <body>
-    <header>
+     <header>
         <nav>
             <div class="logo">
 <a href="index.html"><img class="logoslika" src="images/logo.jpg.png" alt="logo"></a>
         </div>
-<ul class="nav-links">
+        
+        <label for="menu-toggle" class="hamburger">&#9776;</label>
+<input type="checkbox" id="menu-toggle">
+        <ul class="nav-links">
     <li><a href="index.html">Pocetna</a></li>
     <li><a href="ponuda.html">Ponuda</a></li>
     <li><a href="korpa.html">Korpa</a></li>
@@ -38,7 +41,9 @@
         <h2>Proizvodi u korpi</h2>
 <div class="proizvodiukorpi">
         <table>
+            <thead>
             <tr>
+                
                 <th>Proizvod</th>
                 <th>Slika</th>
                 <th>Cena</th>
@@ -46,6 +51,8 @@
                 <th>Ukupno</th>
                 <th>Obrisi</th>
             </tr>
+            </thead>
+            <tbody>
             <tr>
                 <td>Cokolada</td>
                 <td><img src="https://i.pinimg.com/736x/54/62/ea/5462ea031fb21b34b2407873ee1fc88b.jpg" alt=""></td>
@@ -62,6 +69,7 @@
                 <td>700 din</td>
                 <td><button class="obrisi"><i class="fa-solid fa-trash"></i></button></td>
         </tr>
+        </tbody>
         </div>
         </table>
     </section>
